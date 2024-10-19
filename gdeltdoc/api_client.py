@@ -138,6 +138,7 @@ class GdeltDoc:
         Dict
             The parsed JSON response from the API.
         """
+        print(f"query_string: {query_string}")
         if mode not in [
             "artlist",
             "timelinevol",
