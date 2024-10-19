@@ -151,7 +151,7 @@ class GdeltDoc:
 
         headers = {
             "User-Agent": f"GDELT DOC Python API client {version} - https://github.com/alex9smith/gdelt-doc-api"
-        }
+        } 
 
         response = requests.get(
             f"https://api.gdeltproject.org/api/v2/doc/doc?query={query_string}&mode={mode}&format=json",

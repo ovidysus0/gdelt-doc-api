@@ -227,7 +227,7 @@ class Filters:
         else:
             return (
                 "("
-                + " AND ".join(
+                + " OR ".join(
                     [f'"{word}"' if " " in word else word for word in keywords]
                 )
                 + ") "
